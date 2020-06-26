@@ -2,7 +2,7 @@ import gym
 def main():
     env=gym.make("CartPole-v1")                      #Starts the environment 
     
-    totalsteps=[]                                    #variable to count the no of steps in each episodes
+    total_steps=[]                                   #variable to count the no of steps in each episodes
     episodes=100                                     #defining the no of episodes
     
     for i in range(episodes):
@@ -19,7 +19,7 @@ def main():
          print(info)
         
         if done:
-            total_step.append(steps)
+            total_steps.append(steps)
             print("Episode finished after {} steps".format(steps))
             break
             
