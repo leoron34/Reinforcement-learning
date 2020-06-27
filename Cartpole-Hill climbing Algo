@@ -1,0 +1,3 @@
+#Hill climbing algorithm is a technique used for solving optimisation problems i.e. optimising or minimising the input or output of the problem. It starts with a random initial solution and then tweaks the solution using trial and error method. Then this solution is compared with the previous one. If it is better then the new solution becomes the best one, otherwise we go on with the solution.
+
+
